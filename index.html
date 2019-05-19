@@ -33,6 +33,20 @@
       font-weight: 400;
     }
 
+    @font-face {
+      font-family: 'IBM Plex Sans Regular Custom Subset Woff2';
+      src: url('fonts/regular/custom-subset/IBMPlexSans-Regular-Subset.woff2') format('woff2');
+      font-style: normal;
+      font-weight: 400;
+    }
+
+    @font-face {
+      font-family: 'IBM Plex Sans Regular Custom Subset Woff2 Typo';
+      src: url('fonts/regular/complete/IBMPlexSans-Typo.woff2') format('woff2');
+      font-style: normal;
+      font-weight: 400;
+    }
+
     /* https://github.com/IBM/plex/blob/master/IBM-Plex-Sans-Variable/fonts/complete/ttf/IBMPlexSansVar-Roman.ttf */
     @font-face {
       font-family: 'IBM Plex Sans Variable Complete TTF';
@@ -62,6 +76,13 @@
       src: url('fonts/mono/plex-mono-subset.woff2') format('woff2');
       font-style: normal;
       font-weight: 450;
+    }
+
+    @font-face {
+      font-family: 'IBM Plex Sans New Metrics';
+      src: url('fonts/custom/IBMPlexSans-newmetrics3.woff2') format('woff2');
+      font-style: normal;
+      font-weight: 400;
     }
 
 
@@ -109,6 +130,14 @@
       font-family: 'IBM Plex Sans Regular Compelete Woff2';
     }
 
+    .ff-plex-regular-subset-woff2 {
+      font-family: 'IBM Plex Sans Regular Custom Subset Woff2';
+    }
+
+    .ff-plex-regular-subset-woff2-typo {
+      font-family: 'IBM Plex Sans Regular Custom Subset Woff2 Typo';
+    }
+
     .ff-plex-variable-ttf {
       font-family: 'IBM Plex Sans Variable Complete TTF';
     }
@@ -119,6 +148,10 @@
 
     .ff-ia-quattro-variable {
       font-family: 'iA Writer Quattro Variable';
+    }
+
+    .ff-plex-newmetrics {
+      font-family: 'IBM Plex Sans New Metrics';
     }
 
     dl {
@@ -149,33 +182,18 @@
 
   <div class="grid">
     <div class="grid-item">
-      <div class="font-sample ff-plex-googlefont">Ba</div>
-    </div>
-    <div class="grid-item">
-      <div class="font-sample ff-ia-quattro-variable">Ba</div>
-    </div>
-    <div class="grid-item">
       <div class="font-sample ff-plex-regular-ttf">Ba</div>
     </div>
     <div class="grid-item">
       <div class="font-sample ff-plex-regular-woff2">Ba</div>
     </div>
     <div class="grid-item">
-      <div class="font-sample ff-plex-variable-ttf">Ba</div>
-    </div>
-    <div class="grid-item">
-      <div class="font-sample ff-plex-variable-woff2">Ba</div>
+      <div class="font-sample ff-plex-newmetrics">Ba</div>
     </div>
   </div>
 
 
   <div class="grid">
-    <div class="grid-item">
-      <span class="font-sample ff-plex-googlefont">Ba</span>
-    </div>
-    <div class="grid-item">
-      <span class="font-sample ff-ia-quattro-variable">Ba</span>
-    </div>
     <div class="grid-item">
       <span class="font-sample ff-plex-regular-ttf">Ba</span>
     </div>
@@ -183,106 +201,11 @@
       <span class="font-sample ff-plex-regular-woff2">Ba</span>
     </div>
     <div class="grid-item">
-      <span class="font-sample ff-plex-variable-ttf">Ba</span>
-    </div>
-    <div class="grid-item">
-      <span class="font-sample ff-plex-variable-woff2">Ba</span>
+      <span class="font-sample ff-plex-newmetrics">Ba</span>
     </div>
   </div>
 
     <div class="grid grid--140">
-      <div class="grid-item">
-        <dl class="info">
-          <dt>Font</dt>
-          <dd>IBM Plex Sans Google Fonts Woff2<br><br></dd>
-
-          <dt>Link</dt>
-          <dd><a href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans">Google Fonts</a></dd>
-
-          <dt>OS/2 Version</dt>
-          <dd>3</dd>
-
-          <dt>Use Typo Metrics</dt>
-          <dd>No</dd>
-
-          <dt>Win Ascent</dt>
-          <dd>1025</dd>
-
-          <dt>Win Descent</dt>
-          <dd>275</dd>
-
-          <dt>Typo Ascent</dt>
-          <dd>780</dd>
-
-          <dt>Typo Descent</dt>
-          <dd>-220</dd>
-
-          <dt>Typo Line Gap</dt>
-          <dd>300</dd>
-
-          <dt>HHead Ascent</dt>
-          <dd>1025</dd>
-
-          <dt>HHead Descent</dt>
-          <dd>-275</dd>
-
-          <dt>HHead Line Gap</dt>
-          <dd>0</dd>
-
-          <dt>Capital Height</dt>
-          <dd>698</dd>
-
-          <dt>X Height</dt>
-          <dd>516</dd>
-
-        </dl>
-      </div>
-      <div class="grid-item">
-        <dl class="info">
-          <dt>Font</dt>
-          <dd>IA Writer Quattro Variable<br><br></dd>
-
-          <dt>Link</dt>
-          <dd><a href="https://github.com/iaolo/iA-Fonts/blob/master/iA%20Writer%20Quattro/Variable/iAWriterQuattroV.ttf">Github</a></dd>
-
-          <dt>OS/2 Version</dt>
-          <dd>3</dd>
-          
-          <dt>Use Typo Metrics</dt>
-          <dd>No</dd>
-          
-          <dt>Win Ascent</dt>
-          <dd>1025</dd>
-          
-          <dt>Win Descent</dt>
-          <dd>275</dd>
-          
-          <dt>Typo Ascent</dt>
-          <dd>780</dd>
-          
-          <dt>Typo Descent</dt>
-          <dd>-220</dd>
-          
-          <dt>Typo Line Gap</dt>
-          <dd>300</dd>
-          
-          <dt>HHead Ascent</dt>
-          <dd>1025</dd>
-          
-          <dt>HHead Descent</dt>
-          <dd>-275</dd>
-          
-          <dt>HHead Line Gap</dt>
-          <dd>0</dd>
-          
-          <dt>Capital Height</dt>
-          <dd>698</dd>
-          
-          <dt>X Height</dt>
-          <dd>516</dd>
-
-        </dl>
-      </div>
       <div class="grid-item">
         <dl class="info">
           <dt>Font</dt>
@@ -378,91 +301,47 @@
       <div class="grid-item">
         <dl class="info">
           <dt>Font</dt>
-          <dd>IBM Plex Sans Variable Complete TTF</dd>
-    
+          <dd>IBM Plex Sans with new metrics<br><br></dd>
+
           <dt>Link</dt>
-          <dd><a href="https://github.com/IBM/plex/blob/master/IBM-Plex-Sans-Variable/fonts/complete/ttf/IBMPlexSansVar-Roman.ttf">Github</a></dd>
+          <dd>-</dd>
 
           <dt>OS/2 Version</dt>
           <dd>4</dd>
-
+          
           <dt>Use Typo Metrics</dt>
           <dd>Yes</dd>
-
+          
           <dt>Win Ascent</dt>
           <dd>1025</dd>
-
+          
           <dt>Win Descent</dt>
           <dd>275</dd>
-
+          
           <dt>Typo Ascent</dt>
-          <dd>780</dd>
-
+          <dd>880</dd>
+          
           <dt>Typo Descent</dt>
-          <dd>-220</dd>
-
+          <dd>-120</dd>
+          
           <dt>Typo Line Gap</dt>
           <dd>300</dd>
-
+          
           <dt>HHead Ascent</dt>
           <dd>1025</dd>
-
+          
           <dt>HHead Descent</dt>
           <dd>-275</dd>
-
+          
           <dt>HHead Line Gap</dt>
           <dd>0</dd>
-
+          
           <dt>Capital Height</dt>
           <dd>698</dd>
-
+          
           <dt>X Height</dt>
           <dd>516</dd>
-        </dl>
-      </div>
-      <div class="grid-item">
-        <dl class="info">
-          <dt>Font</dt>
-          <dd>IBM Plex Sans Variable Complete Woff2</dd>
 
-          <dt>Link</dt>
-          <dd><a href="https://github.com/IBM/plex/blob/master/IBM-Plex-Sans-Variable/fonts/complete/woff2/IBMPlexSansVar-Roman.woff2">Github</a></dd>
-
-          <dt>OS/2 Version</dt>
-          <dd>4</dd>
-
-          <dt>Use Typo Metrics</dt>
-          <dd>Yes</dd>
-
-          <dt>Win Ascent</dt>
-          <dd>1025</dd>
-
-          <dt>Win Descent</dt>
-          <dd>275</dd>
-
-          <dt>Typo Ascent</dt>
-          <dd>780</dd>
-
-          <dt>Typo Descent</dt>
-          <dd>-220</dd>
-
-          <dt>Typo Line Gap</dt>
-          <dd>300</dd>
-
-          <dt>HHead Ascent</dt>
-          <dd>1025</dd>
-
-          <dt>HHead Descent</dt>
-          <dd>-275</dd>
-
-          <dt>HHead Line Gap</dt>
-          <dd>0</dd>
-
-          <dt>Capital Height</dt>
-          <dd>698</dd>
-
-          <dt>X Height</dt>
-          <dd>516</dd>
         </dl>
       </div>
     </div>
